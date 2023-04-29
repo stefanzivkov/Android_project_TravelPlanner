@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ShowDestination">
+
+    <ImageView
+        android:id="@+id/iv_show_destination"
+        android:layout_width="293dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_show_naziv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_show_destination"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_show_date_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_show_naziv"
+        app:layout_constraintStart_toStartOf="@+id/tv_show_naziv"
+        app:layout_constraintTop_toBottomOf="@+id/tv_show_naziv" />
+
+    <TextView
+        android:id="@+id/tv_show_date_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_show_date_from"
+        app:layout_constraintStart_toStartOf="@+id/tv_show_date_from"
+        app:layout_constraintTop_toBottomOf="@+id/tv_show_date_from" />
+
+    <TextView
+        android:id="@+id/tv_show_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_show_date_to"
+        app:layout_constraintStart_toStartOf="@+id/tv_show_date_to"
+        app:layout_constraintTop_toBottomOf="@+id/tv_show_date_to" />
+
+    <ImageButton
+        android:id="@+id/btnShowSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_show_description"
+        app:layout_constraintStart_toStartOf="@+id/tv_show_description"
+        app:layout_constraintTop_toBottomOf="@+id/tv_show_description"
+        app:srcCompat="@drawable/ic_baseline_search_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

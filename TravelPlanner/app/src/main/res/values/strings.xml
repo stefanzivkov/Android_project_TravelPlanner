@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TravelPlanner</string>
+    <string name="trip_planner">Travel Planner</string>
+    <string name="destination_name">Destination name:</string>
+    <string name="destination_name_et">Destination name</string>
+    <string name="date_from">Choose Date From</string>
+    <string name="choose_date_to">Choose Date To</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="description">Description</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="destinations">Destinations</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">+</string>
+    <string name="string_add" />
+    <string name="string_string_add">+</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="title_activity_maps3">MapsActivity3</string>
+    <string name="select_location">SELECT LOCATION</string>
+    <string name="save">Save</string>
+    <string name="wishlist_map">Wishlist Map</string>
+    <string name="show_joke">Show Joke</string>
+</resources>
